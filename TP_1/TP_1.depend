@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554344369 source:e:\utnfra\repositories\trabajos_practicos_utn\tp_1\funcionescalculo.c
+	<stdio.h>
+	<stdlib.h>
+
+1554344362 source:e:\utnfra\repositories\trabajos_practicos_utn\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesCalculo.h"
+
+1554344346 e:\utnfra\repositories\trabajos_practicos_utn\tp_1\funcionescalculo.h
+
