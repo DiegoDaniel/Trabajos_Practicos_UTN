@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "funcionesCalculo.h"
-int llamarMenu(float numeroUno, float numeroDos);
+#include "funcionesTexto.h"
+//Propotipo de funcion "Llamar Menu"
 
 int main(){
     int opcion=0;
@@ -41,17 +42,3 @@ int main(){
     printf("Gracias por utilizar la calculadora!!\n");
     return 0;
 }
-
-
-int llamarMenu(float numeroUno, float numeroDos)
-{
-    system("cls");
-    printf("1. Ingresar 1er operando (A=%.2f)\n"
-            "2. Ingresar 2do operando (B=%.2f)\n"
-            "3. Calcular todas las operaciones\n"
-            "4. Informar resultados\n"
-            "5. Salir\n",numeroUno,numeroDos);
-    return 0;
-}
-
-
