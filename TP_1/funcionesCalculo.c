@@ -30,7 +30,6 @@ int utn_getNumber(float* numeroIngresado, char* msgPregunta, char* msgError, int
 {
     float auxNumeroIngresado;
     int execution = -1;
-    //int boolean = -1;
     printf("%s", msgPregunta);
     while(intentosMax>0){
         if(scanf("%f", &auxNumeroIngresado) != 0){
@@ -42,9 +41,8 @@ int utn_getNumber(float* numeroIngresado, char* msgPregunta, char* msgError, int
     }
     return execution;
 }
-
-
-
+//Funcion que calcular el Factorial de un numero. 
+//Recibe como parametro el numero, y el puntero a la direccion de memoria donde se guardara el resultado.
 int utn_getFactorial(float numeroN, long* factorialN)
 {
     int b;

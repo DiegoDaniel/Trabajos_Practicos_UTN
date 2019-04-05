@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//Funcion que muestra el Menu. Recibe como parametros el valor de NumeroA y NumeroB (x e y)
 int llamarMenu(float numeroUno, float numeroDos)
 {
     system("cls");
