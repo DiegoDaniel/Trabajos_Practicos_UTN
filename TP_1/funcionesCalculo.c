@@ -41,7 +41,7 @@ int utn_getNumber(float* numeroIngresado, char* msgPregunta, char* msgError, int
     }
     return execution;
 }
-//Funcion que calcular el Factorial de un numero. 
+//Funcion que calcular el Factorial de un numero.
 //Recibe como parametro el numero, y el puntero a la direccion de memoria donde se guardara el resultado.
 int utn_getFactorial(float numeroN, long* factorialN)
 {
@@ -101,10 +101,7 @@ int utn_showMaths(float numeroUno, float numeroDos, float suma, float resta, flo
     }else{
         printf(" No se puede calcular el factorial de B. \n");
     }
-
-
-    //printf("E) El factorial de A es: %ld y El factorial de B es: %ld\n", factorialA, factorialB);
-    system("pause");
+	fflush(stdin);
+	getchar();
     return 0;
 }
-
